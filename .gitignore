@@ -1,0 +1,12 @@
+node_modules
+test-results
+.env
+.DS_Store
+
+# Keep the output folders in the repo, ignore their runtime contents.
+report/*
+!report/.gitkeep
+traces/*
+!traces/.gitkeep
+logs/*
+!logs/.gitkeep
